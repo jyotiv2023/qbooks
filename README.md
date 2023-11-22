@@ -9,12 +9,7 @@ This is a Full Stack E-Commerce Application designed and developed for purchasin
 - [Features](#features)
 - [Modules](#modules)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
@@ -55,43 +50,3 @@ The admin module is designed for administrators to manage the application effici
   - MongoDB as the database using Mongoose.
   - JSON Web Tokens (JWT) for authentication.
   - PayPal API for payment processing.
-
-## Getting Started
-
-To get started with the project, follow these steps:
-
-### Installation
-
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
-2. Navigate to the project directory: `cd your-repo`
-
-### Configuration
-
-1. Set up the backend:
-   - Navigate to the `backend` folder: `cd backend`
-   - Install dependencies: `npm install`
-   - Configure environment variables (e.g., MongoDB connection string, JWT secret).
-
-2. Set up the frontend:
-   - Navigate to the `frontend` folder: `cd frontend`
-   - Install dependencies: `npm install`
-   - Configure environment variables (e.g., API endpoint).
-
-### Usage
-
-1. Start the backend server: `cd backend && npm start`
-2. Start the frontend application: `cd frontend && npm start`
-
-## Contributing
-
-If you would like to contribute to this project, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature`
-3. Make your changes and commit them: `git commit -m 'Add feature'`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Open a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
